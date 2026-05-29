@@ -67,12 +67,12 @@ def student_detail(request, pk):
         return Response(serializer.errors)
 
     # DELETE DATA
-    elif request.method == 'DELETE':
+    # elif request.method == 'DELETE':
 
-        student.delete()
+    #     student.delete()
 
-        return Response(
-            {"message": "Deleted successfully"},
-            status=status.HTTP_204_NO_CONTENT
-        )
+    #     return Response(
+    #         {"message": "Deleted successfully"},
+    #         status=status.HTTP_204_NO_CONTENT
+    #     )
     
