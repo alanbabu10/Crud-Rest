@@ -75,3 +75,4 @@ def student_detail(request, pk):
             {"message": "Deleted successfully"},
             status=status.HTTP_204_NO_CONTENT
         )
+    
