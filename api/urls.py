@@ -5,3 +5,5 @@ urlpatterns = [
     path('students/', student_list),
     path('students/<int:pk>/', student_detail),
 ]
+
+
